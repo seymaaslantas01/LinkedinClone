@@ -1,0 +1,182 @@
+body {
+    background-color: #fff;
+}
+.navbarbg {
+    height: 60px;
+    background-color: white;  
+  }
+
+
+input.searchInput {
+    font-weight: 400;
+    font-size: 14px;
+    height: 34px; 
+    width:280px;
+    background-color: #eef3f8;
+    border: 0px;
+}
+
+input.searchInput::placeholder {
+    
+    color: gray;
+    background-image: url(search-solid.svg) ;
+    background-repeat: no-repeat;
+    background-size: 6%;
+    
+
+  }
+
+.userPhoto {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    
+ }
+
+.navIcon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.5;
+    min-height: 50px;
+    min-width: 80px;
+    position: relative;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 0;
+}
+.navText {
+    font-size: 0.8rem;
+    margin-top: 0px;
+   
+    
+  }
+
+.text {
+    
+    display: flex;
+    flex-direction: column;
+    min-width: 80px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    min-height: 52px;
+    font-weight: 400px;
+    max-width: 125px;
+    text-decoration: none !important;   
+    text-align: center;
+}
+
+.text:hover {
+    
+    text-decoration: underline !important; 
+}
+
+/* middle section */
+
+.left-side{
+    background-position: center;
+    background-size: cover;
+    display: block;
+    height: 56.25px;
+    margin: -12px -12px 0;
+}
+
+.leftProfilPhoto {
+    background-image: url(https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2021/03/LinkedIn-Default-Background-2020-.jpg);
+    height: 53px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.card a:hover {
+    text-decoration: underline !important;
+}
+
+.card-text {
+    margin-bottom: 5px;
+}
+
+.card-text:hover {
+    background-color: #eef3f8;
+}
+
+.card-footer {
+    background-color: white; color: gray;
+}
+.card-footer:hover {
+    background-color: #eef3f8;
+}
+
+.card-header {
+    background-color: white; color: gray;
+    font-size: 14px;;
+}
+
+.card-header>a {
+    text-decoration: none;
+}
+
+.card-header a:hover {
+    text-decoration: underline;
+}
+
+.postinput {
+    width: 450px;
+    height: 40px;
+    border-radius: 30px;
+    color: gray;
+    border: 1px solid gray;
+    background-color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.list-inline-item a:hover {
+    text-decoration: none !important;
+    
+}
+
+.list-inline-item:hover {
+    background-color: #eef3f8;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: gray;
+}
+
+.d-inline-block > a {
+    text-decoration: none;
+    color: gray;
+}
+
+.btn1 {
+    color: gray;
+    text-decoration: none;
+}
+
+.btn1 a:hover {
+    background-color: silver;
+    text-decoration: none !important ;
+}
+
+.commentInput {
+    width: 430px;
+    height: 40px;
+    border-radius: 30px;
+    color: gray;
+    border: 1px solid gray;
+    background-color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.liste {
+    text-decoration: none;
+}
+.list-inline > .liste:hover {
+    text-decoration: underline;
+}
